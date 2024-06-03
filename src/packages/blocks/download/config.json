@@ -1,0 +1,34 @@
+{
+  "id": "Download",
+  "version": "0.0.1",
+  "certificationType": "lite",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Download",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["Download"],
+    "assembler-dependencies": [
+      "\"react-native-progress\": \"^5.0.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {},
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["Download"],
+    "assembler-dependencies": [
+      "\"react-native-progress\": \"^5.0.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+    }
+  }
+}

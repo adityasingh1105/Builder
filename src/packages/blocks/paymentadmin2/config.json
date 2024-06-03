@@ -1,0 +1,65 @@
+{
+  "id": "paymentadmin2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/paymentadmin2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Paymentadmin2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Paymentadmin2": {
+        "file": "Paymentadmin2.tsx",
+        "extends": "Paymentadmin2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Paymentadmin2Controller",
+            "path": "./Paymentadmin2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Paymentadmin2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Paymentadmin2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Paymentadmin2": {
+        "file": "Paymentadmin2.web.tsx",
+        "extends": "Paymentadmin2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Paymentadmin2Controller",
+            "path": "./Paymentadmin2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Paymentadmin2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

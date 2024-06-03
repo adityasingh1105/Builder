@@ -1,0 +1,67 @@
+{
+  "id": "TextComparison",
+  "version": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/textcomparison",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TextComparison"
+    ],
+    "assembler-dependencies": [
+      "\"unidiff\":\"1.0.2\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TextComparison": {
+        "file": "TextComparison.tsx",
+        "extends": "TextComparisonController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TextComparisonController",
+            "path": "./TextComparisonController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TextComparisonController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "TextComparison"
+    ],
+    "assembler-dependencies": [
+      "\"unidiff\":\"1.0.2\""
+    ],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "TextComparison": {
+        "file": "TextComparison.web.tsx",
+        "extends": "TextComparisonController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "TextComparisonController",
+            "path": "./TextComparisonController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TextComparisonController"
+          }
+        ]
+      }
+    }
+  }
+}

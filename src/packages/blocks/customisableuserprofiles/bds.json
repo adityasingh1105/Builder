@@ -1,0 +1,18 @@
+{
+  "bds": {
+    "name": "CustomisableUserProfiles",
+    "id": "CustomisableUserProfiles",
+    "platform": ["desktop", "mobile"],
+    "author": "CMT",
+    "summary": null,
+    "license": "BSD",
+    "version": "1.0.0",
+    "pages": [
+      {
+        "CustomisableUserProfiles": {
+          "hotspots": []
+        }
+      }
+    ]
+  }
+}

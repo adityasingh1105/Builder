@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/angiechang/bxinternaldev-989886-react-native/src/packages/blocks/review-approval/__tests__/step-definitions/ReviewApprovalBasicUser.steps.tsx">
+        <testCase name="Review Approval Basic User User navigates to review approval basic user screen" duration="2894"/>
+    </file>
+    <file path="/Users/angiechang/bxinternaldev-989886-react-native/src/packages/blocks/review-approval/__tests__/step-definitions/ReviewApprovalAdmin.steps.tsx">
+        <testCase name="Review Approval Admin User navigates to review approval admin screen" duration="3257"/>
+    </file>
+    <file path="/Users/angiechang/bxinternaldev-989886-react-native/src/packages/blocks/review-approval/__tests__/step-definitions/ReviewApprovalBasicUser.web.steps.tsx">
+        <testCase name="Review Approval Basic User User navigates to review approval basic user screen" duration="36"/>
+    </file>
+</testExecutions>

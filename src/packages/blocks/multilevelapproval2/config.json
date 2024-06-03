@@ -1,0 +1,65 @@
+{
+  "id": "multilevelapproval2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/multilevelapproval2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Multilevelapproval2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Multilevelapproval2": {
+        "file": "Multilevelapproval2.tsx",
+        "extends": "Multilevelapproval2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Multilevelapproval2Controller",
+            "path": "./Multilevelapproval2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Multilevelapproval2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Multilevelapproval2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Multilevelapproval2": {
+        "file": "Multilevelapproval2.web.tsx",
+        "extends": "Multilevelapproval2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Multilevelapproval2Controller",
+            "path": "./Multilevelapproval2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Multilevelapproval2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

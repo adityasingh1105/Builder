@@ -1,0 +1,65 @@
+{
+  "id": "multiselect",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/multiselect",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Multiselect"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Multiselect": {
+        "file": "Multiselect.tsx",
+        "extends": "MultiselectController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "MultiselectController",
+            "path": "./MultiselectController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultiselectController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Multiselect"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Multiselect": {
+        "file": "Multiselect.web.tsx",
+        "extends": "MultiselectController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "MultiselectController",
+            "path": "./MultiselectController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultiselectController"
+          }
+        ]
+      }
+    }
+  }
+}

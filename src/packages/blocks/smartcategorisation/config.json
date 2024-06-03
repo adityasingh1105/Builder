@@ -1,0 +1,65 @@
+{
+  "id": "smartcategorisation",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/smartcategorisation",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Smartcategorisation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Smartcategorisation": {
+        "file": "Smartcategorisation.tsx",
+        "extends": "SmartcategorisationController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "SmartcategorisationController",
+            "path": "./SmartcategorisationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SmartcategorisationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Smartcategorisation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Smartcategorisation": {
+        "file": "Smartcategorisation.web.tsx",
+        "extends": "SmartcategorisationController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "SmartcategorisationController",
+            "path": "./SmartcategorisationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SmartcategorisationController"
+          }
+        ]
+      }
+    }
+  }
+}

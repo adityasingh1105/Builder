@@ -1,0 +1,58 @@
+{
+  "id": "Watermark",
+  "version": "0.0.1",
+  "certificationType": "lite",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Watermark",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-native-modal-activityindicator\": \"0.0.1\"",
+      "\"@react-native-community/slider\": \"4.2.1\"",
+      "\"react-native-slider-color-picker\": \"^2.2.3\"",
+      "\"react-native-vector-icons\": \"6.6.0\"",
+      "\"react-native-modal\": \"^13.0.1\"",
+      "\"react-native-draggable\": \"^3.3.0\"",
+      "\"react-native-fs\": \"^2.19.0\"",
+      "\"react-native-flash-message\": \"^0.2.1\"",
+      "\"@react-native-community/cameraroll\": \"^4.1.2\"",
+      "\"react-native-view-shot\": \"3.0.2\"",
+      "\"react-native-actionsheet\": \"^2.4.2\"",
+      "\"@material-ui/core\": \"4.12.4\"",
+      "\"@material-ui/icons\": \"4.11.2\"",
+      "\"react-native-image-picker\": \"2.3.0\"",
+      "\"react-native-image-crop-picker\": \"^0.37.3\"",
+      "\"react-native-compressor\": \"^1.5.2\""
+    ],
+    "catalog-dependencies": ["core", "utilities"],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["Watermark"],
+    "assembler-dependencies": [
+      "\"react-native-modal-activityindicator\": \"0.0.1\"",
+      "\"@react-native-community/slider\": \"4.2.1\"",
+      "\"react-native-slider-color-picker\": \"^2.2.3\"",
+      "\"react-native-vector-icons\": \"6.6.0\"",
+      "\"react-native-modal\": \"^13.0.1\"",
+      "\"react-native-draggable\": \"^3.3.0\"",
+      "\"react-native-fs\": \"^2.19.0\"",
+      "\"react-native-flash-message\": \"^0.2.1\"",
+      "\"@react-native-community/cameraroll\": \"^4.1.2\"",
+      "\"react-native-view-shot\": \"3.0.2\"",
+      "\"react-native-actionsheet\": \"^2.4.2\"",
+      "\"@material-ui/core\": \"4.12.4\"",
+      "\"@material-ui/icons\": \"4.11.2\"",
+      "\"react-native-image-picker\": \"2.3.0\"",
+      "\"react-native-image-crop-picker\": \"^0.37.3\"",
+      "\"react-native-compressor\": \"^1.5.2\""
+    ],
+    "catalog-dependencies": ["core", "utilities"],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "LanguageSupport",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/LanguageSupport",
+  "certificationType": "lite",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LanguageSupport"
+    ],
+    "assembler-dependencies": [
+      "\"react-i18next\": \"13.0.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "LanguageSupport"
+    ],
+    "assembler-dependencies": [
+      "\"react-i18next\": \"13.0.0\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

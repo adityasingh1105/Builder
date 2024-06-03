@@ -1,0 +1,81 @@
+{
+  "id": "activity-feed",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/activity-feed",
+  "assembler-adapters": [
+  ],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ActivityFeed"
+    ],
+    "assembler-messages": {
+      "output": {
+      },
+      "input": {
+        "navigation": [
+          "NavigationActivityFeedMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": ["\"@react-native-picker/picker\": \"^2.4.8\""],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ActivityFeed": {
+        "file": "ActivityFeed.tsx",
+        "extends": "ActivityFeedController",
+        "imports": [
+          {
+            "value": "ActivityFeedController",
+            "path": "./ActivityFeedController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ActivityFeedController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ActivityFeed"
+    ],
+    "assembler-messages": {
+      "output": {
+       
+      },
+      "input": {
+        "navigation": [
+          "NavigationActivityFeedMessage"
+        ]
+      }
+    },
+    "assembler-dependencies": ["\"@react-native-picker/picker\": \"^2.4.8\""],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ActivityFeed": {
+        "file": "ActivityFeed.tsx",
+        "extends": "ActivityFeedController",
+        "imports": [
+          {
+            "value": "ActivityFeedController",
+            "path": "./ActivityFeedController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ActivityFeedController"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "waitinglist",
+    "version": "0.0.1",
+    "status": "preAlpha",
+    "path": "./packages/blocks/waitinglist",
+    "assembler-adapters": [],
+    "mobile": {
+      "merge-engine-navigation": {},
+      "assembler-exports": [],
+      "assembler-dependencies": [
+        "\"@material-ui/core\": \"4.12.4\"",
+        "\"@material-ui/icons\": \"4.11.2\"",
+        "\"moment\": \"^2.29.1\""
+      ],
+      "catalog-dependencies": ["core", "utilities"],
+      "assembler-devDependencies": [],
+      "merge-engine-screens": {}
+    },
+    "web": {
+      "merge-engine-navigation": {},
+      "assembler-exports": [],
+      "assembler-dependencies": [
+        "\"@material-ui/core\": \"4.12.4\"",
+        "\"@material-ui/icons\": \"4.11.2\"",
+        "\"moment\": \"^2.29.1\""
+      ],
+      "catalog-dependencies": ["core", "utilities"],
+      "assembler-devDependencies": [],
+      "merge-engine-screens": {}
+    },
+    "certificationType": "lite"
+  }
+  

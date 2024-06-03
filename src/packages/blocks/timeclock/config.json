@@ -1,0 +1,36 @@
+{
+  "id": "Timeclock",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Timeclock",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"@material-ui/core\": \"4.12.4\"",
+      "\"@material-ui/lab\": \"^4.0.0-alpha.60\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"@material-ui/core\": \"4.12.4\"",
+      "\"@material-ui/lab\": \"^4.0.0-alpha.60\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "certificationType": "lite"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "convertfile",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/convertfile",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Convertfile"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Convertfile": {
+        "file": "Convertfile.tsx",
+        "extends": "ConvertfileController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ConvertfileController",
+            "path": "./ConvertfileController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConvertfileController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Convertfile"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Convertfile": {
+        "file": "Convertfile.web.tsx",
+        "extends": "ConvertfileController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "ConvertfileController",
+            "path": "./ConvertfileController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ConvertfileController"
+          }
+        ]
+      }
+    }
+  }
+}

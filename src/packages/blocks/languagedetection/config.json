@@ -1,0 +1,34 @@
+{
+  "id": "LanguageDetection",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "certificationType": "lite",
+  "path": "./packages/blocks/LanguageDetection",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.4.9\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"@react-native-picker/picker\": \"^2.4.9\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {}
+  }
+}

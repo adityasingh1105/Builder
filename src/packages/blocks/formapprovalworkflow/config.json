@@ -1,0 +1,68 @@
+{
+  "id": "FormApprovalWorkflow",
+  "version": "0.0.1",
+  "certificationType": "lite",
+  "status": "preAlpha",
+  "path": "./packages/blocks/FormApprovalWorkflow",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["FormApprovalWorkflow"],
+    "assembler-dependencies": [
+      "\"@react-native-community/geolocation\": \"3.0.6\"",
+      "\"react-native-geocoding\": \"^0.5.0\"",
+      "\"react-google-places-autocomplete\": \"^4.0.1\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FormApprovalWorkflow": {
+        "file": "FormApprovalWorkflow.tsx",
+        "extends": "FormApprovalWorkflowController",
+        "imports": [
+          {
+            "value": "FormApprovalWorkflowController",
+            "path": "./FormApprovalWorkflowController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FormApprovalWorkflowController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": ["FormApprovalWorkflow"],
+    "assembler-dependencies": [
+      "\"@react-native-community/geolocation\": \"^3.0.6\"",
+      "\"react-native-geocoding\": \"^0.5.0\"",
+      "\"react-google-places-autocomplete\": \"^4.0.1\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "FormApprovalWorkflow": {
+        "file": "FormApprovalWorkflow.web.tsx",
+        "extends": "FormApprovalWorkflowController",
+        "imports": [
+          {
+            "value": "FormApprovalWorkflowController",
+            "path": "./FormApprovalWorkflowController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FormApprovalWorkflowController"
+          }
+        ]
+      }
+    }
+  }
+}

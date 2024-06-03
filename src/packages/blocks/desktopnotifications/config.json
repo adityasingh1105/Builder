@@ -1,0 +1,65 @@
+{
+  "id": "desktopnotifications",
+  "version": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/desktopnotifications",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DesktopNotifications": {
+        "file": "DesktopNotifications.tsx",
+        "extends": "DesktopNotificationsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DesktopNotificationsController",
+            "path": "./DesktopNotificationsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DesktopNotificationsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DesktopNotifications"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core"
+    ],
+    "assembler-devDependencies": [
+      "\"react-push-notification\": \"1.3.0\""
+    ],
+    "merge-engine-screens": {
+      "DesktopNotifications": {
+        "file": "DesktopNotifications.web.tsx",
+        "extends": "DesktopNotificationsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DesktopNotificationsController",
+            "path": "./DesktopNotificationsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DesktopNotificationsController"
+          }
+        ]
+      }
+    }
+  }
+}

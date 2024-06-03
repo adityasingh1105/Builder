@@ -1,0 +1,65 @@
+{
+  "id": "groups2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/groups2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Groups2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Groups2": {
+        "file": "Groups2.tsx",
+        "extends": "Groups2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Groups2Controller",
+            "path": "./Groups2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Groups2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Groups2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Groups2": {
+        "file": "Groups2.web.tsx",
+        "extends": "Groups2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Groups2Controller",
+            "path": "./Groups2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Groups2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

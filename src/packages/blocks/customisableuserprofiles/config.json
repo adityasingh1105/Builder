@@ -1,0 +1,32 @@
+{
+  "id": "CustomisableUserProfiles",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "certificationType": "lite",
+  "path": "./packages/blocks/CustomisableUserProfiles",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-datepicker\": \"4.10.0\""
+      ],
+    "catalog-dependencies": ["core", "utilities"],
+    "assembler-devDependencies": [
+      "\"@types/react-datepicker\": \"4.10.0\""
+      ],
+    "merge-engine-screens": {}
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [],
+    "assembler-dependencies": [
+      "\"react-datepicker\": \"4.10.0\""
+      ],
+    "catalog-dependencies": ["core", "utilities"],
+    "assembler-devDependencies": [
+      "\"@types/react-datepicker\": \"4.10.0\""
+      ],
+    "merge-engine-screens": {}
+  }
+}

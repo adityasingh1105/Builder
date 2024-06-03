@@ -1,0 +1,67 @@
+{
+  "id": "translation",
+  "version": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/translation",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Translation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Translation": {
+        "file": "Translation.tsx",
+        "extends": "TranslationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TranslationController",
+            "path": "./TranslationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TranslationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Translation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Translation": {
+        "file": "Translation.web.tsx",
+        "extends": "TranslationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "TranslationController",
+            "path": "./TranslationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./TranslationController"
+          }
+        ]
+      }
+    }
+  }
+}

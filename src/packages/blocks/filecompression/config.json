@@ -1,0 +1,65 @@
+{
+  "id": "filecompression",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/filecompression",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Filecompression"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Filecompression": {
+        "file": "Filecompression.tsx",
+        "extends": "FilecompressionController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "FilecompressionController",
+            "path": "./FilecompressionController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FilecompressionController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Filecompression"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Filecompression": {
+        "file": "Filecompression.web.tsx",
+        "extends": "FilecompressionController",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "FilecompressionController",
+            "path": "./FilecompressionController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./FilecompressionController"
+          }
+        ]
+      }
+    }
+  }
+}

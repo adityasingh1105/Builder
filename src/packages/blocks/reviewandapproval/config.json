@@ -1,0 +1,97 @@
+{
+  "id": "ReviewApproval",
+  "version": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/review-approval",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ReviewApprovalAdmin",
+      "ReviewApprovalBasicUser"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-picker-select\": \"^8.0.4\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReviewApprovalAdmin": {
+        "file": "ReviewApprovalAdmin.tsx",
+        "extends": "ReviewApprovalAdminController",
+        "imports": [
+          {
+            "value": "ReviewApprovalAdminController",
+            "path": "./ReviewApprovalAdminController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewApprovalAdminController"
+          }
+        ]
+      },
+      "ReviewApprovalBasicUser": {
+        "file": "ReviewApprovalBasicUser.tsx",
+        "extends": "ReviewApprovalBasicUserController",
+        "imports": [
+          {
+            "value": "ReviewApprovalBasicUserController",
+            "path": "./ReviewApprovalBasicUserController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewApprovalBasicUserController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "ReviewApprovalAdmin",
+      "ReviewApprovalBasicUser"
+    ],
+    "assembler-dependencies": [
+      "\"react-native-picker-select\": \"^8.0.4\""
+    ],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "ReviewApprovalAdmin": {
+        "file": "ReviewApprovalAdmin.tsx",
+        "extends": "ReviewApprovalAdminController",
+        "imports": [
+          {
+            "value": "ReviewApprovalAdminController",
+            "path": "./ReviewApprovalAdminController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewApprovalAdminController"
+          }
+        ]
+      },
+      "ReviewApprovalBasicUser": {
+        "file": "ReviewApprovalBasicUser.web.tsx",
+        "extends": "ReviewApprovalBasicUserController",
+        "imports": [
+          {
+            "value": "ReviewApprovalBasicUserController",
+            "path": "./ReviewApprovalBasicUserController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./ReviewApprovalBasicUserController"
+          }
+        ]
+      }
+    }
+  }
+}

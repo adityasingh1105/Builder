@@ -1,0 +1,65 @@
+{
+  "id": "servicespecificsettingsadmin2",
+  "version": "0.0.2",
+  "status": "preAlpha",
+  "path": "./packages/blocks/servicespecificsettingsadmin2",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Servicespecificsettingsadmin2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Servicespecificsettingsadmin2": {
+        "file": "Servicespecificsettingsadmin2.tsx",
+        "extends": "Servicespecificsettingsadmin2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Servicespecificsettingsadmin2Controller",
+            "path": "./Servicespecificsettingsadmin2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Servicespecificsettingsadmin2Controller"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Servicespecificsettingsadmin2"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Servicespecificsettingsadmin2": {
+        "file": "Servicespecificsettingsadmin2.web.tsx",
+        "extends": "Servicespecificsettingsadmin2Controller",
+        "ui-elements": [],
+        "imports": [
+          {
+            "value": "Servicespecificsettingsadmin2Controller",
+            "path": "./Servicespecificsettingsadmin2Controller"
+          },
+          {
+            "value": "{Props}",
+            "path": "./Servicespecificsettingsadmin2Controller"
+          }
+        ]
+      }
+    }
+  }
+}

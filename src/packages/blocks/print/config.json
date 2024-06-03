@@ -1,0 +1,67 @@
+{
+  "id": "Print",
+  "version": "1.0.0",
+  "status": "",
+  "path": "./packages/blocks/print",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Print"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Print": {
+        "file": "Print.tsx",
+        "extends": "PrintController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PrintController",
+            "path": "./PrintController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PrintController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Print"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [
+      "core",
+      "utilities"
+    ],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Print": {
+        "file": "Print.web.tsx",
+        "extends": "PrintController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PrintController",
+            "path": "./PrintController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PrintController"
+          }
+        ]
+      }
+    }
+  }
+}
