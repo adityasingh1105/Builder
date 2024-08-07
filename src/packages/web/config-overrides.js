@@ -19,6 +19,11 @@ const appIncludes = [
   resolveApp('../../node_modules/react-native-calendars'),
   resolveApp('../../node_modules/react-native-swipe-gestures'),
   resolveApp('../../node_modules/react-native-password-strength-meter'),
+  resolveApp('../blocks/termsconditions'),
+  resolveApp('../blocks/formapprovalworkflow'),
+  resolveApp('../blocks/customisableuserprofiles'),
+  resolveApp('../../node_modules/@react-native-async-storage'),
+
   resolveApp('../../node_modules/react-navigation-deprecated-tab-navigator'),
   resolveApp('../../node_modules/react-navigation-drawer'),
   resolveApp('../../node_modules/react-navigation-tabs'),
@@ -28,7 +33,8 @@ const appIncludes = [
   resolveApp('../blocks/restClient/src'),
   resolveApp('../blocks/alert/src'),
   resolveApp('../blocks/adapters/src'),
-  resolveApp('../blocks/info-page/src')
+  resolveApp('../blocks/info-page/src'),
+
 ]
 
 const CompressionPlugin = require('compression-webpack-plugin'); //gzip
@@ -46,24 +52,24 @@ module.exports = function override(config, env) {
     require.resolve('babel-plugin-react-native-web'),
   ].concat(config.module.rules[2].oneOf[1].options.plugins)
   config.module.rules = config.module.rules.filter(Boolean)
-  config.plugins.push(
-    new webpack.DefinePlugin({ __DEV__: env !== 'production' }),
-    //gzip
-    new CompressionPlugin({
-      filename: '[path].gz[query]',
-      algorithm: 'gzip',
-      test: /\.(js|css|html|svg)$/,
-      threshold: 8192,
-      minRatio: 0.8
-    }),
-    //brotli plugin
-    new BrotliPlugin({ 
-      asset: '[path].br[query]',
-      test: /\.(js|css|html|svg)$/,
-      threshold: 10240,
-      minRatio: 0.8
-    }),
-  )
+  // config.plugins.push(
+  //   new webpack.DefinePlugin({ __DEV__: env !== 'production' }),
+  //   //gzip
+  //   new CompressionPlugin({
+  //     filename: '[path].gz[query]',
+  //     algorithm: 'gzip',
+  //     test: /\.(js|css|html|svg)$/,
+  //     threshold: 8192,
+  //     minRatio: 0.8
+  //   }),
+  //   //brotli plugin
+  //   new BrotliPlugin({ 
+  //     asset: '[path].br[query]',
+  //     test: /\.(js|css|html|svg)$/,
+  //     threshold: 10240,
+  //     minRatio: 0.8
+  //   }),
+  // )
   config.resolve.alias = {'react-native-maps': 'react-native-web-maps', 'react-native': 'react-native-web'};
   return config
 }

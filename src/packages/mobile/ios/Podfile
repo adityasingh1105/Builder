@@ -99,7 +99,6 @@ target 'DesignProcess' do
 
   pod 'react-native-document-picker', :path => '../../../node_modules/react-native-document-picker'
 
-  pod 'PDFNet', podspec: 'https://pdftron.com/downloads/ios/react-native/latest.podspec'
 
   pod 'react-native-view-shot', :path => '../../../node_modules/react-native-view-shot'
 
